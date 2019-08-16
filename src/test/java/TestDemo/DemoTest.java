@@ -16,6 +16,7 @@ public class DemoTest {
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.seleniumhq.org/");
 	System.out.println(driver.getTitle());
+	System.out.println("jenikns demo");
 	driver.close();
 	}
 	
